@@ -5,6 +5,7 @@ int main(){
     vector<int> nums = {1,2,3,4,5,6};
     int target = 4;
     int n = nums.size();
+    int l;
     int left = 0, right = n-1;
     int ans = -1;
 
